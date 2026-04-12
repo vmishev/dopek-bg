@@ -1,4 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://dopekhold.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'blowfish'
+title = 'Dopek Hold Manufacturing'
+enableRobotsTXT = true
+
+[params]
+  description = 'Precision CNC machining partner for industrial OEMs and engineered assemblies.'
+
+[[menus.main]]
+  name = 'Capabilities'
+  url = '#capabilities'
+  weight = 10
+[[menus.main]]
+  name = 'Industries'
+  url = '#industries'
+  weight = 20
+[[menus.main]]
+  name = 'Quality'
+  url = '#quality'
+  weight = 30
+[[menus.main]]
+  name = 'Contact'
+  url = '#contact'
+  weight = 40
