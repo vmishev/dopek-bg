@@ -48,12 +48,18 @@ capability = "precision finishing of contact surfaces"
 enables = "Flatness-critical details and final tolerance corrections"
 
 [[gallery]]
+image = "/images/work/flange-adapter.jpg"
+alt = "Machined steel flange adapter on workbench"
 title = "Flange adapter"
 caption = "Material: C45 steel · Process: turning + drilling · Batch: small run"
 [[gallery]]
+image = "/images/work/mounting-plate.jpg"
+alt = "Milled aluminum mounting plate with drilled hole pattern"
 title = "Machine mounting plate"
 caption = "Material: Aluminum · Process: milling · Batch: custom"
 [[gallery]]
+image = "/images/work/guide-block.jpg"
+alt = "Ground tool-steel guide block for precision alignment"
 title = "Guide block"
 caption = "Material: Tool steel · Process: milling + grinding · Batch: prototype"
 

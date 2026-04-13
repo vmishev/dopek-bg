@@ -71,3 +71,6 @@ p, li { color: var(--muted); }
 .lang-menu { display: flex; list-style: none; gap: .5rem; padding: 0; margin: 0; }
 .lang-menu a { color: var(--muted); text-decoration: none; font-size: .8rem; border: 1px solid var(--line); padding: .15rem .4rem; }
 .lang-menu a[aria-current="true"] { color: var(--text); border-color: var(--accent); }
+
+.gallery-image { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 1px solid var(--line); margin-bottom: .8rem; }
+.gallery-note { font-size: .85rem; margin-top: .8rem; }

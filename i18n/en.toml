@@ -18,3 +18,6 @@ other = "Email"
 other = "Phone"
 [contact_location]
 other = "Location"
+
+[work_real_photos_note]
+other = "Use real workshop photos in /static/images/work to replace placeholders and sample paths."

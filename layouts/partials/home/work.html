@@ -4,10 +4,15 @@
   <div class="grid three">
     {{ range $home.gallery }}
       <article class="card gallery-item">
-        <div class="image-placeholder" aria-hidden="true">{{ i18n "work_photo_placeholder" }}</div>
+        {{ if .image }}
+          <img class="gallery-image" src="{{ .image }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+        {{ else }}
+          <div class="image-placeholder" aria-hidden="true">{{ i18n "work_photo_placeholder" }}</div>
+        {{ end }}
         <h3>{{ .title }}</h3>
         <p>{{ .caption }}</p>
       </article>
     {{ end }}
   </div>
+  <p class="gallery-note">{{ i18n "work_real_photos_note" }}</p>
 </section>

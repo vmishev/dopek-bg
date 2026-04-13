@@ -18,3 +18,6 @@ other = "E-Mail"
 other = "Telefon"
 [contact_location]
 other = "Standort"
+
+[work_real_photos_note]
+other = "Nutzen Sie echte Werkstattfotos unter /static/images/work, um Platzhalter und Beispielpfade zu ersetzen."
