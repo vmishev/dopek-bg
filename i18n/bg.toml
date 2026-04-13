@@ -1,0 +1,20 @@
+[capabilities_title]
+other = "Услуги"
+[machines_title]
+other = "Машини / Капацитет"
+[machines_capability]
+other = "Капацитет"
+[machines_enables]
+other = "Подходящо за"
+[work_title]
+other = "Реални детайли / изработка"
+[work_photo_placeholder]
+other = "Снимка на реален детайл"
+[why_us_title]
+other = "Защо да работите с нас"
+[contact_email]
+other = "Имейл"
+[contact_phone]
+other = "Телефон"
+[contact_location]
+other = "Локация"

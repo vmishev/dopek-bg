@@ -1,0 +1,76 @@
+[hero]
+eyebrow = "Industrial Machining Workshop"
+headline = "Custom machined parts for small batches. Fast response. Reliable execution."
+subheadline = "Turning, milling, grinding, and custom part production for industrial clients."
+primary_cta_text = "Send Drawing"
+primary_cta_url = "#contact"
+secondary_cta_text = "View Capabilities"
+secondary_cta_url = "#capabilities"
+
+[[metrics]]
+value = "Small Batch"
+label = "from one-offs to repeat runs"
+[[metrics]]
+value = "Fast Reply"
+label = "quote feedback target within 24h"
+[[metrics]]
+value = "Direct Contact"
+label = "workshop-level technical communication"
+
+[[capabilities]]
+title = "Turning"
+description = "Shafts, bushings, sleeves, and custom rotational parts for repair and production use."
+detail = "Carbon steel, stainless, aluminum, engineering plastics"
+[[capabilities]]
+title = "Milling"
+description = "Plates, blocks, slots, drilling patterns, and custom geometries for machine assemblies."
+detail = "Fixtures, housings, brackets, and machine details"
+[[capabilities]]
+title = "Grinding"
+description = "Precision flat surfaces and finishing operations where dimensional stability matters."
+detail = "Surface finishing and correction before final assembly"
+[[capabilities]]
+title = "Custom Parts / Small Series"
+description = "One-offs, urgent replacements, and short production runs for industrial maintenance and OEM work."
+detail = "Practical problem-solving for difficult or non-standard parts"
+
+[[machines]]
+type = "Lathe"
+capability = "up to customer-defined diameters and lengths"
+enables = "Shafts, bushings, threads, and custom turned parts"
+[[machines]]
+type = "Milling Machine"
+capability = "multi-feature milling, drilling, slotting"
+enables = "Plates, fixtures, housings, and non-rotational precision details"
+[[machines]]
+type = "Surface Grinder"
+capability = "precision finishing of contact surfaces"
+enables = "Flatness-critical details and final tolerance corrections"
+
+[[gallery]]
+title = "Flange adapter"
+caption = "Material: C45 steel · Process: turning + drilling · Batch: small run"
+[[gallery]]
+title = "Machine mounting plate"
+caption = "Material: Aluminum · Process: milling · Batch: custom"
+[[gallery]]
+title = "Guide block"
+caption = "Material: Tool steel · Process: milling + grinding · Batch: prototype"
+
+[[why_us]]
+point = "Fast response for urgent and difficult machining requests"
+[[why_us]]
+point = "Flexible small-batch execution without heavy procurement overhead"
+[[why_us]]
+point = "Direct communication with the people making the parts"
+[[why_us]]
+point = "Practical, production-minded problem solving"
+[[why_us]]
+point = "Reliable execution against agreed tolerances and deadlines"
+
+[contact]
+headline = "Contact / Inquiry"
+body = "Send drawing, material, quantity, and target deadline. We reply with practical manufacturability feedback and next steps."
+email = "rfq@dopek-bg.com"
+phone = "+359 (0) XXX XXX XXX"
+location = "Bulgaria — serving industrial clients across the EU"

@@ -1,0 +1,20 @@
+[capabilities_title]
+other = "Leistungen"
+[machines_title]
+other = "Maschinen / Kapazität"
+[machines_capability]
+other = "Kapazität"
+[machines_enables]
+other = "Geeignet für"
+[work_title]
+other = "Reale Teile / Arbeiten"
+[work_photo_placeholder]
+other = "Echtes Bauteilfoto"
+[why_us_title]
+other = "Warum mit uns arbeiten"
+[contact_email]
+other = "E-Mail"
+[contact_phone]
+other = "Telefon"
+[contact_location]
+other = "Standort"

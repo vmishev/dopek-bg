@@ -1,24 +1,35 @@
 {{ define "main" }}
-{{ $home := site.Data.home.en }}
+{{ $lang := site.Language.Lang }}
+{{ $home := index site.Data.home $lang }}
+{{ if not $home }}{{ $home = site.Data.home.en }}{{ end }}
 <header class="topbar">
   <div class="container topbar-inner">
     <a class="brand" href="/">{{ site.Title }}</a>
-    <nav aria-label="Primary">
-      <ul class="menu">
-        {{ range site.Menus.main }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-    </nav>
+    <div class="nav-cluster">
+      <nav aria-label="Primary">
+        <ul class="menu">
+          {{ range site.Menus.main }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+      <nav aria-label="Languages">
+        <ul class="lang-menu">
+          {{ range site.Languages }}
+            <li><a href="{{ .Lang | relLangURL }}" {{ if eq .Lang $.Site.Language.Lang }}aria-current="true"{{ end }}>{{ .LanguageName }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
 
 <main>
-  {{ partial "home/hero.html" $home }}
-  {{ partial "home/capabilities.html" $home }}
-  {{ partial "home/machines.html" $home }}
-  {{ partial "home/work.html" $home }}
-  {{ partial "home/why-us.html" $home }}
-  {{ partial "home/contact.html" $home }}
+  {{ partial "home/hero.html" (dict "home" $home) }}
+  {{ partial "home/capabilities.html" (dict "home" $home) }}
+  {{ partial "home/machines.html" (dict "home" $home) }}
+  {{ partial "home/work.html" (dict "home" $home) }}
+  {{ partial "home/why-us.html" (dict "home" $home) }}
+  {{ partial "home/contact.html" (dict "home" $home) }}
 </main>
 {{ end }}

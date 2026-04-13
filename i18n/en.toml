@@ -1,0 +1,20 @@
+[capabilities_title]
+other = "Capabilities"
+[machines_title]
+other = "Machines / Capacity"
+[machines_capability]
+other = "Capability"
+[machines_enables]
+other = "Enables"
+[work_title]
+other = "Real Work / Parts"
+[work_photo_placeholder]
+other = "Real part photo"
+[why_us_title]
+other = "Why Work With Us"
+[contact_email]
+other = "Email"
+[contact_phone]
+other = "Phone"
+[contact_location]
+other = "Location"

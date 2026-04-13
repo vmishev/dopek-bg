@@ -66,3 +66,8 @@ p, li { color: var(--muted); }
 .page { padding-top: 3rem; }
 .page-content { max-width: 74ch; }
 .page-content p, .page-content li { color: var(--muted); }
+
+.nav-cluster { display: flex; align-items: center; gap: 1rem; }
+.lang-menu { display: flex; list-style: none; gap: .5rem; padding: 0; margin: 0; }
+.lang-menu a { color: var(--muted); text-decoration: none; font-size: .8rem; border: 1px solid var(--line); padding: .15rem .4rem; }
+.lang-menu a[aria-current="true"] { color: var(--text); border-color: var(--accent); }

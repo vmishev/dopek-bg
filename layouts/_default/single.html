@@ -2,6 +2,13 @@
 <header class="topbar">
   <div class="container topbar-inner">
     <a class="brand" href="/">{{ site.Title }}</a>
+    <nav aria-label="Languages">
+      <ul class="lang-menu">
+        {{ range site.Languages }}
+          <li><a href="{{ .Lang | relLangURL }}" {{ if eq .Lang $.Site.Language.Lang }}aria-current="true"{{ end }}>{{ .LanguageName }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
   </div>
 </header>
 

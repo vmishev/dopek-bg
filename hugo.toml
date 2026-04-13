@@ -9,30 +9,74 @@ defaultContentLanguageInSubdir = false
   [languages.en]
     languageName = 'English'
     weight = 1
+  [[languages.en.menus.main]]
+    name = 'Capabilities'
+    url = '#capabilities'
+    weight = 10
+  [[languages.en.menus.main]]
+    name = 'Machines'
+    url = '#machines'
+    weight = 20
+  [[languages.en.menus.main]]
+    name = 'Work'
+    url = '#work'
+    weight = 30
+  [[languages.en.menus.main]]
+    name = 'Why Us'
+    url = '#why-us'
+    weight = 40
+  [[languages.en.menus.main]]
+    name = 'Contact'
+    url = '#contact'
+    weight = 50
+
   [languages.de]
     languageName = 'Deutsch'
     weight = 2
+  [[languages.de.menus.main]]
+    name = 'Leistungen'
+    url = '#capabilities'
+    weight = 10
+  [[languages.de.menus.main]]
+    name = 'Maschinen'
+    url = '#machines'
+    weight = 20
+  [[languages.de.menus.main]]
+    name = 'Arbeiten'
+    url = '#work'
+    weight = 30
+  [[languages.de.menus.main]]
+    name = 'Warum wir'
+    url = '#why-us'
+    weight = 40
+  [[languages.de.menus.main]]
+    name = 'Kontakt'
+    url = '#contact'
+    weight = 50
+
+  [languages.bg]
+    languageName = 'Български'
+    weight = 3
+  [[languages.bg.menus.main]]
+    name = 'Услуги'
+    url = '#capabilities'
+    weight = 10
+  [[languages.bg.menus.main]]
+    name = 'Машини'
+    url = '#machines'
+    weight = 20
+  [[languages.bg.menus.main]]
+    name = 'Изработка'
+    url = '#work'
+    weight = 30
+  [[languages.bg.menus.main]]
+    name = 'Защо ние'
+    url = '#why-us'
+    weight = 40
+  [[languages.bg.menus.main]]
+    name = 'Контакт'
+    url = '#contact'
+    weight = 50
 
 [params]
   description = 'Precision CNC machining partner for industrial OEMs and engineered assemblies.'
-
-[[menus.main]]
-  name = 'Capabilities'
-  url = '#capabilities'
-  weight = 10
-[[menus.main]]
-  name = 'Machines'
-  url = '#machines'
-  weight = 20
-[[menus.main]]
-  name = 'Work'
-  url = '#work'
-  weight = 30
-[[menus.main]]
-  name = 'Why Us'
-  url = '#why-us'
-  weight = 40
-[[menus.main]]
-  name = 'Contact'
-  url = '#contact'
-  weight = 50

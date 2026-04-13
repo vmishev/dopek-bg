@@ -2,9 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/capabilities/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/bg/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -15,15 +18,13 @@
                 hreflang="bg"
                 href="http://localhost:1313/bg/categories/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/bg/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -34,17 +35,13 @@
                 hreflang="bg"
                 href="http://localhost:1313/bg/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/bg/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/tags/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
-  </url><url>
-    <loc>http://localhost:1313/machines/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -54,11 +51,6 @@
                 rel="alternate"
                 hreflang="bg"
                 href="http://localhost:1313/bg/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>

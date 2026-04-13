@@ -1,12 +1,12 @@
-{{- $home := . -}}
+{{- $home := .home -}}
 <section id="machines" class="section container">
-  <h2>Machines / Capacity</h2>
+  <h2>{{ i18n "machines_title" }}</h2>
   <div class="grid three">
     {{ range $home.machines }}
       <article class="card machine">
         <h3>{{ .type }}</h3>
-        <p><strong>Capability:</strong> {{ .capability }}</p>
-        <p><strong>Enables:</strong> {{ .enables }}</p>
+        <p><strong>{{ i18n "machines_capability" }}:</strong> {{ .capability }}</p>
+        <p><strong>{{ i18n "machines_enables" }}:</strong> {{ .enables }}</p>
       </article>
     {{ end }}
   </div>

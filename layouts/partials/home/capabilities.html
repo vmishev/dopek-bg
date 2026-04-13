@@ -1,6 +1,6 @@
-{{- $home := . -}}
+{{- $home := .home -}}
 <section id="capabilities" class="section container">
-  <h2>Capabilities</h2>
+  <h2>{{ i18n "capabilities_title" }}</h2>
   <div class="grid two">
     {{ range $home.capabilities }}
       <article class="card">

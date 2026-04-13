@@ -11,4 +11,9 @@
     
   </sitemap>
   
+  <sitemap>
+    <loc>http://localhost:1313/bg/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>
