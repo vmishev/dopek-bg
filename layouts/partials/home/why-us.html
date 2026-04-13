@@ -1,0 +1,9 @@
+{{- $home := . -}}
+<section id="why-us" class="section container">
+  <h2>Why Work With Us</h2>
+  <ul class="why-list">
+    {{ range $home.why_us }}
+      <li>{{ .point }}</li>
+    {{ end }}
+  </ul>
+</section>

@@ -1,7 +1,17 @@
-baseURL = 'https://dopekhold.com/'
+baseURL = 'https://dopek-bg.com/'
 languageCode = 'en-us'
-title = 'Dopek Hold Manufacturing'
+title = 'Dopek BG Machining'
 enableRobotsTXT = true
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+  [languages.de]
+    languageName = 'Deutsch'
+    weight = 2
 
 [params]
   description = 'Precision CNC machining partner for industrial OEMs and engineered assemblies.'
@@ -11,14 +21,18 @@ enableRobotsTXT = true
   url = '#capabilities'
   weight = 10
 [[menus.main]]
-  name = 'Industries'
-  url = '#industries'
+  name = 'Machines'
+  url = '#machines'
   weight = 20
 [[menus.main]]
-  name = 'Quality'
-  url = '#quality'
+  name = 'Work'
+  url = '#work'
   weight = 30
+[[menus.main]]
+  name = 'Why Us'
+  url = '#why-us'
+  weight = 40
 [[menus.main]]
   name = 'Contact'
   url = '#contact'
-  weight = 40
+  weight = 50

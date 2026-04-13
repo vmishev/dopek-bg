@@ -1,0 +1,8 @@
+{{- $home := . -}}
+<section id="contact" class="section container contact">
+  <h2>{{ $home.contact.headline }}</h2>
+  <p>{{ $home.contact.body }}</p>
+  <p><strong>Email:</strong> <a href="mailto:{{ $home.contact.email }}">{{ $home.contact.email }}</a></p>
+  <p><strong>Phone:</strong> {{ $home.contact.phone }}</p>
+  <p><strong>Location:</strong> {{ $home.contact.location }}</p>
+</section>

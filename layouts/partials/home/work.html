@@ -1,0 +1,13 @@
+{{- $home := . -}}
+<section id="work" class="section container">
+  <h2>Real Work / Parts</h2>
+  <div class="grid three">
+    {{ range $home.gallery }}
+      <article class="card gallery-item">
+        <div class="image-placeholder" aria-hidden="true">Real part photo</div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .caption }}</p>
+      </article>
+    {{ end }}
+  </div>
+</section>

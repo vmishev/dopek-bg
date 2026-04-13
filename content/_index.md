@@ -1,6 +1,6 @@
 ---
-title: "Dopek Hold Manufacturing"
+title: "Dopek BG Machining"
 description: "Production-ready machining for critical industrial components."
 ---
 
-Dopek Hold Manufacturing supports industrial teams that need repeatable precision, fast technical response, and transparent production planning.
+Dopek BG supports industrial teams that need repeatable precision, fast technical response, and transparent production planning.

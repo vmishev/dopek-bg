@@ -1,0 +1,13 @@
+{{- $home := . -}}
+<section id="machines" class="section container">
+  <h2>Machines / Capacity</h2>
+  <div class="grid three">
+    {{ range $home.machines }}
+      <article class="card machine">
+        <h3>{{ .type }}</h3>
+        <p><strong>Capability:</strong> {{ .capability }}</p>
+        <p><strong>Enables:</strong> {{ .enables }}</p>
+      </article>
+    {{ end }}
+  </div>
+</section>

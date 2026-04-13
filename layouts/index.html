@@ -1,7 +1,8 @@
 {{ define "main" }}
+{{ $home := site.Data.home.en }}
 <header class="topbar">
   <div class="container topbar-inner">
-    <a class="brand" href="/">Dopek Hold Manufacturing</a>
+    <a class="brand" href="/">{{ site.Title }}</a>
     <nav aria-label="Primary">
       <ul class="menu">
         {{ range site.Menus.main }}
@@ -13,87 +14,11 @@
 </header>
 
 <main>
-  <section class="hero container">
-    <p class="eyebrow">Industrial CNC Machining Partner</p>
-    <h1>Precision components delivered with production discipline.</h1>
-    <p class="intro">From prototype validation to stable repeat production, we machine and finish critical parts for OEMs that cannot afford tolerance drift, schedule surprises, or unclear communication.</p>
-    <div class="cta-row">
-      <a class="btn btn-primary" href="#contact">Request a Quote</a>
-      <a class="btn btn-secondary" href="#capabilities">View Capabilities</a>
-    </div>
-    <ul class="metrics" aria-label="Operational metrics">
-      <li><strong>±0.01 mm</strong><span>tight-tolerance workflows</span></li>
-      <li><strong>24h</strong><span>engineering response target</span></li>
-      <li><strong>98%+</strong><span>on-time delivery focus</span></li>
-    </ul>
-  </section>
-
-  <section id="capabilities" class="section container">
-    <h2>Core Capabilities</h2>
-    <div class="grid three">
-      <article class="card">
-        <h3>CNC Milling & Turning</h3>
-        <p>3-axis and multi-operation machining for aluminum, steels, stainless, and engineering polymers.</p>
-      </article>
-      <article class="card">
-        <h3>Prototype-to-Production</h3>
-        <p>DFM feedback, fixture strategy, and process locking to shorten handoff from first article to repeatable runs.</p>
-      </article>
-      <article class="card">
-        <h3>Secondary Operations</h3>
-        <p>Deburring, threading, surface finishing, and supplier-managed treatments coordinated to shipment readiness.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="industries" class="section container">
-    <h2>Industries We Support</h2>
-    <div class="grid two">
-      <article class="card">
-        <h3>Automation & Robotics</h3>
-        <p>Rigid structural and motion-control components where dimensional consistency impacts system reliability.</p>
-      </article>
-      <article class="card">
-        <h3>Energy & Process Equipment</h3>
-        <p>Machined parts for pumps, manifolds, enclosures, and instrumentation assemblies with documented quality checks.</p>
-      </article>
-      <article class="card">
-        <h3>Specialty Machines</h3>
-        <p>Low-to-mid volume custom components for machine builders and integrators with frequent iteration cycles.</p>
-      </article>
-      <article class="card">
-        <h3>Industrial Electronics</h3>
-        <p>Thermal plates, housings, and interfaces that require flatness control and clean, repeatable feature quality.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="quality" class="section container">
-    <h2>Quality & Delivery System</h2>
-    <div class="grid two">
-      <article class="card">
-        <h3>Process Control</h3>
-        <ul>
-          <li>First-article verification before release.</li>
-          <li>In-process dimensional checks at critical features.</li>
-          <li>Lot traceability tied to traveler and inspection records.</li>
-        </ul>
-      </article>
-      <article class="card">
-        <h3>Production Communication</h3>
-        <ul>
-          <li>Clear lead-time commitments and milestone updates.</li>
-          <li>Early risk flags for material, tooling, or tolerance conflicts.</li>
-          <li>Shipment packaging aligned to assembly-line handling.</li>
-        </ul>
-      </article>
-    </div>
-  </section>
-
-  <section id="contact" class="section container contact">
-    <h2>Start Your RFQ</h2>
-    <p>Send part drawings, annual volume expectations, and required certifications. We return manufacturability notes and a quote path aligned to your production timeline.</p>
-    <p><strong>Email:</strong> <a href="mailto:rfq@dopekhold.com">rfq@dopekhold.com</a></p>
-  </section>
+  {{ partial "home/hero.html" $home }}
+  {{ partial "home/capabilities.html" $home }}
+  {{ partial "home/machines.html" $home }}
+  {{ partial "home/work.html" $home }}
+  {{ partial "home/why-us.html" $home }}
+  {{ partial "home/contact.html" $home }}
 </main>
 {{ end }}

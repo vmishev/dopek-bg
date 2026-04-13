@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="/">{{ site.Title }}</a>
+  </div>
+</header>
+
+<main class="section container page">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="intro">{{ . }}</p>{{ end }}
+  <div class="page-content">
+    {{ .Content }}
+  </div>
+</main>
+{{ end }}

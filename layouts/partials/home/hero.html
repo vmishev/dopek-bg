@@ -1,0 +1,15 @@
+{{- $home := . -}}
+<section class="hero container">
+  <p class="eyebrow">{{ $home.hero.eyebrow }}</p>
+  <h1>{{ $home.hero.headline }}</h1>
+  <p class="intro">{{ $home.hero.subheadline }}</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ $home.hero.primary_cta_url }}">{{ $home.hero.primary_cta_text }}</a>
+    <a class="btn btn-secondary" href="{{ $home.hero.secondary_cta_url }}">{{ $home.hero.secondary_cta_text }}</a>
+  </div>
+  <ul class="metrics" aria-label="Operational metrics">
+    {{ range $home.metrics }}
+      <li><strong>{{ .value }}</strong><span>{{ .label }}</span></li>
+    {{ end }}
+  </ul>
+</section>
