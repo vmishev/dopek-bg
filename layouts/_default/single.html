@@ -1,7 +1,7 @@
 {{ define "main" }}
 <header class="topbar">
   <div class="container topbar-inner">
-    <a class="brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    <a class="brand" href="{{ site.Home.RelPermalink }}"><img class="brand-logo" src="{{ "logo.svg" | relURL }}" alt="{{ i18n "site_browser_title" }} logo"><span>{{ i18n "site_browser_title" }}</span></a>
     <nav aria-label="Languages">
       <ul class="lang-menu">
         {{ range site.Sites }}

@@ -21,3 +21,6 @@ other = "Standort"
 
 [work_real_photos_note]
 other = "Nutzen Sie echte Werkstattfotos unter /static/images/work, um Platzhalter und Beispielpfade zu ersetzen."
+
+[site_browser_title]
+other = "DOPEK"

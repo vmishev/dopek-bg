@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+    <title>{{ i18n "site_browser_title" }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="icon" type="image/svg+xml" href="{{ "logo.svg" | relURL }}">
+    <link rel="shortcut icon" href="{{ "logo.svg" | relURL }}">
     <link rel="alternate" hreflang="{{ site.Language.Lang }}" href="{{ .Permalink }}">
     {{ range .AllTranslations }}
       <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">

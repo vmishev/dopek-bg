@@ -21,3 +21,6 @@ other = "Локация"
 
 [work_real_photos_note]
 other = "Използвайте реални снимки от цеха в /static/images/work, за да замените примерните пътища."
+
+[site_browser_title]
+other = "ДОПЕК"

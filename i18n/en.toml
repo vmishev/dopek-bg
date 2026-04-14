@@ -21,3 +21,6 @@ other = "Location"
 
 [work_real_photos_note]
 other = "Use real workshop photos in /static/images/work to replace placeholders and sample paths."
+
+[site_browser_title]
+other = "DOPEK"
