@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/capabilities/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/capabilities/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="http://localhost:1313/bg/capabilities/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/capabilities/"
+                />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
@@ -22,6 +37,21 @@
                 />
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="http://localhost:1313/bg/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/contact/"
+                />
   </url><url>
     <loc>http://localhost:1313/</loc>
     <xhtml:link
@@ -41,8 +71,38 @@
                 />
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="http://localhost:1313/bg/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/gallery/"
+                />
   </url><url>
     <loc>http://localhost:1313/machines/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/machines/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="http://localhost:1313/bg/machines/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/machines/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <xhtml:link

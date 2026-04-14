@@ -1,82 +1,82 @@
 [hero]
-eyebrow = "Industrial Machining Workshop"
-headline = "Custom machined parts for small batches. Fast response. Reliable execution."
-subheadline = "Turning, milling, grinding, and custom part production for industrial clients."
-primary_cta_text = "Send Drawing"
+eyebrow = "Industrielle CNC-Fertigung"
+headline = "Zeichnungsteile für Kleinserien. Schnelle Reaktion. Zuverlässige Ausführung."
+subheadline = "Drehen, Fräsen, Schleifen und kundenspezifische Fertigung für Industriekunden."
+primary_cta_text = "Zeichnung senden"
 primary_cta_url = "#contact"
-secondary_cta_text = "View Capabilities"
+secondary_cta_text = "Leistungen ansehen"
 secondary_cta_url = "#capabilities"
 
 [[metrics]]
-value = "Small Batch"
-label = "from one-offs to repeat runs"
+value = "Kleinserien"
+label = "von Einzelteilen bis wiederholbaren Losgrößen"
 [[metrics]]
-value = "Fast Reply"
-label = "quote feedback target within 24h"
+value = "Schnelle Antwort"
+label = "Rückmeldung auf Anfragen innerhalb von 24h"
 [[metrics]]
-value = "Direct Contact"
-label = "workshop-level technical communication"
+value = "Direkter Kontakt"
+label = "technische Abstimmung direkt mit der Fertigung"
 
 [[capabilities]]
-title = "Turning"
-description = "Shafts, bushings, sleeves, and custom rotational parts for repair and production use."
-detail = "Carbon steel, stainless, aluminum, engineering plastics"
+title = "Drehen"
+description = "Wellen, Buchsen, Hülsen und kundenspezifische Rotationsteile für Instandhaltung und Produktion."
+detail = "Stahl, Edelstahl, Aluminium, technische Kunststoffe"
 [[capabilities]]
-title = "Milling"
-description = "Plates, blocks, slots, drilling patterns, and custom geometries for machine assemblies."
-detail = "Fixtures, housings, brackets, and machine details"
+title = "Fräsen"
+description = "Platten, Gehäuse, Nuten, Bohrbilder und Sondergeometrien für Maschinenbaugruppen."
+detail = "Vorrichtungen, Gehäuseteile, Halter und Funktionsflächen"
 [[capabilities]]
-title = "Grinding"
-description = "Precision flat surfaces and finishing operations where dimensional stability matters."
-detail = "Surface finishing and correction before final assembly"
+title = "Schleifen"
+description = "Präzise Endbearbeitung für funktionskritische Flächen und maßhaltige Korrekturen."
+detail = "Flachschleifen und Finish für toleranzkritische Bauteile"
 [[capabilities]]
-title = "Custom Parts / Small Series"
-description = "One-offs, urgent replacements, and short production runs for industrial maintenance and OEM work."
-detail = "Practical problem-solving for difficult or non-standard parts"
+title = "Sonderteile / Kleinserien"
+description = "Einzelteile, dringende Ersatzteile und kurze Serien für Industrie, Service und OEM."
+detail = "Pragmatische Lösung komplexer Fertigungsaufgaben"
 
 [[machines]]
-type = "Lathe"
-capability = "up to customer-defined diameters and lengths"
-enables = "Shafts, bushings, threads, and custom turned parts"
+type = "Drehmaschine"
+capability = "gemäß vorgegebenen Durchmessern und Längen"
+enables = "Wellen, Buchsen, Gewinde und Rotationsteile"
 [[machines]]
-type = "Milling Machine"
-capability = "multi-feature milling, drilling, slotting"
-enables = "Plates, fixtures, housings, and non-rotational precision details"
+type = "Fräsmaschine"
+capability = "Fräsen, Bohren, Nuten und kombinierte Bearbeitung"
+enables = "Platten, Vorrichtungen, Gehäuse und Sonderformen"
 [[machines]]
-type = "Surface Grinder"
-capability = "precision finishing of contact surfaces"
-enables = "Flatness-critical details and final tolerance corrections"
+type = "Flachschleifmaschine"
+capability = "präzise Endbearbeitung von Kontaktflächen"
+enables = "Ebenheit und Maßkorrekturen bei engen Toleranzen"
 
 [[gallery]]
 image = "/images/work/flange-adapter.jpg"
-alt = "Machined steel flange adapter on workbench"
-title = "Flange adapter"
-caption = "Material: C45 steel · Process: turning + drilling · Batch: small run"
+alt = "Gefertigter Stahl-Flanschadapter auf der Werkbank"
+title = "Flanschadapter"
+caption = "Material: C45-Stahl · Prozess: Drehen + Bohren · Losgröße: Kleinserie"
 [[gallery]]
 image = "/images/work/mounting-plate.jpg"
-alt = "Milled aluminum mounting plate with drilled hole pattern"
-title = "Machine mounting plate"
-caption = "Material: Aluminum · Process: milling · Batch: custom"
+alt = "Gefräste Aluminium-Montageplatte mit Bohrbild"
+title = "Montageplatte"
+caption = "Material: Aluminium · Prozess: Fräsen · Losgröße: kundenspezifisch"
 [[gallery]]
 image = "/images/work/guide-block.jpg"
-alt = "Ground tool-steel guide block for precision alignment"
-title = "Guide block"
-caption = "Material: Tool steel · Process: milling + grinding · Batch: prototype"
+alt = "Geschliffener Führungsblock aus Werkzeugstahl"
+title = "Führungsblock"
+caption = "Material: Werkzeugstahl · Prozess: Fräsen + Schleifen · Losgröße: Prototyp"
 
 [[why_us]]
-point = "Fast response for urgent and difficult machining requests"
+point = "Schnelle Reaktion bei dringenden und schwierigen Fertigungsanfragen"
 [[why_us]]
-point = "Flexible small-batch execution without heavy procurement overhead"
+point = "Flexible Abwicklung von Kleinserien ohne komplexe Beschaffungswege"
 [[why_us]]
-point = "Direct communication with the people making the parts"
+point = "Direkte Kommunikation mit den Fachleuten in der Fertigung"
 [[why_us]]
-point = "Practical, production-minded problem solving"
+point = "Praktische, lösungsorientierte Arbeitsweise"
 [[why_us]]
-point = "Reliable execution against agreed tolerances and deadlines"
+point = "Zuverlässige Ausführung nach vereinbarten Toleranzen und Terminen"
 
 [contact]
-headline = "Contact / Inquiry"
-body = "Send drawing, material, quantity, and target deadline. We reply with practical manufacturability feedback and next steps."
+headline = "Kontakt / Anfrage"
+body = "Senden Sie Zeichnung, Werkstoff, Menge und Zieltermin. Wir geben Ihnen schnell eine fertigungsgerechte Rückmeldung mit den nächsten Schritten."
 email = "rfq@dopek-bg.com"
 phone = "+359 (0) XXX XXX XXX"
-location = "Bulgaria — serving industrial clients across the EU"
+location = "Bulgarien — für Industriekunden in der EU"

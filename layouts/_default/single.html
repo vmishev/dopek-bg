@@ -1,11 +1,11 @@
 {{ define "main" }}
 <header class="topbar">
   <div class="container topbar-inner">
-    <a class="brand" href="/">{{ site.Title }}</a>
+    <a class="brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
     <nav aria-label="Languages">
       <ul class="lang-menu">
-        {{ range site.Languages }}
-          <li><a href="{{ .Lang | relLangURL }}" {{ if eq .Lang $.Site.Language.Lang }}aria-current="true"{{ end }}>{{ .LanguageName }}</a></li>
+        {{ range site.Sites }}
+          <li><a href="{{ .Home.RelPermalink }}" {{ if eq .Language.Lang $.Site.Language.Lang }}aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a></li>
         {{ end }}
       </ul>
     </nav>
